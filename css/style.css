@@ -1,0 +1,184 @@
+body {
+	background: #000;
+	margin: 20px;
+	text-align: center;
+}
+h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	border: 0;
+}
+a {
+	text-decoration:none;
+}
+div#wrapper {
+	border-bottom: 1px solid #333;
+	position: relative;
+	width: 935px;
+	height: 640px;
+	text-align: left;
+	margin: 0 auto;
+}
+body#intro div#wrapper {
+	background: url(bg_intro.jpg) top right no-repeat;
+	border: 0;
+}
+body#intro div#wrapper a {
+	display: block;
+	background: url(h1_intro.gif) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: 245px;
+	left: 30px;
+	width: 410px;
+	height: 55px;
+}
+div#header {
+	background: #222;
+	position: relative;
+	height: 46px;
+}
+div#header a {
+	display: block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	height: 46px;
+}
+div#header a:hover {
+	background-color: #333;
+}
+div#header h1 a {
+	background-position: 20px 14px;
+	background-image: url(h1_johnrichardson.gif);
+	width: 260px;
+}
+div#header ul {
+	position: absolute;
+	top: 0;
+	left: 260px;
+}
+div#header ul li {
+	float: left;
+}
+div#header ul li a {
+	background-position: 50% 16px;
+	width: 135px;
+}
+div#header ul li#nav_digital a {
+	background-image: url(nav_digital.gif);
+}
+div#header ul li#nav_design a {
+	background-image: url(nav_design.gif);
+}
+div#header ul li#nav_photo a {
+	background-image: url(nav_photo.gif);
+}
+div#header ul li#nav_video a {
+	background-image: url(nav_video.gif);
+}
+div#header ul li#nav_slideshow a {
+	background-image: url(nav_slideshow.gif);
+}
+div#sidebar {
+	border-right: 1px solid #333;
+	position: absolute;
+	top: 46px;
+	left: 0;
+	width: 259px;
+	height: 594px;
+}
+div#sidebar h2 {
+	background-position: 0 20px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	height: 40px;
+}
+div#sidebar h3 {
+	padding: 5px 0;
+}
+div#sidebar h2, div#sidebar h3 {
+	clear: both;
+	margin-left: 20px;
+}
+div#sidebar h2#digital {
+	background-image: url(h2_digital.gif);
+}
+div#sidebar h2#design {
+	background-image: url(h2_design.gif);
+}
+div#sidebar h2#photo {
+	background-image: url(h2_photo.gif);
+}
+div#sidebar h2#video {
+	background-image: url(h2_video.gif);
+}
+div#sidebar h2#slideshow {
+	background-image: url(h2_slideshow.gif);
+}
+div#sidebar ul {
+	margin: 4px 20px 0 20px;
+}
+div#sidebar ul li {
+	float: left;
+	margin: 0 5px 4px 0px;
+}
+div#sidebar ul li img {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+div#content {
+	margin-left: 260px;
+	height: 594px;
+}
+body#main div#content {
+	background: url(p_main.gif) 50% 250px no-repeat;
+	position: relative;
+	text-indent: -9999px;
+	margin-left: 0;
+}
+body#main div#content p a {
+	display: block;
+	position: absolute;
+	top: 290px;
+	left: 270px;
+	width: 255px;
+	height: 25px;
+}
+div#content div#image {
+	text-align: center;
+	height: 528px;
+}
+div#content div#image img {
+	margin-top: 20px;
+	width: 505px;
+	height: 484px;
+}
+div#content div#movie {
+	text-align: center;
+	height: 528px;
+	hei\ght: 408px; /* ie5.win bmh hack */
+	padding-top: 120px;
+}
+div#content div#title {
+	border-top: 1px solid #333;
+	text-align: center;
+	height: 65px;
+}
+div#content div#title img {
+	margin-top: 8px;
+	width: 505px;
+	height: 48px;
+}
+div#content div#spread {
+	position: absolute;
+	top: 416px;
+	left: 46px;
+}
+div#content div#spread img {
+	width: 162px;
+	height: 205px;
+}
